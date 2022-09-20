@@ -1,0 +1,106 @@
+body {
+    font-size: 100%;
+    font-family: Arial, helvetica, sans-serif;
+  }
+  .wrapper {
+    text-align: center;
+  }
+  #dejahome{
+    height: 250px;
+  }
+  .wrapper h1 {
+    font-size: 280%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .wrapper p {
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .btn-groups-jogo{
+    text-align: center;
+    margin-top: 10%;
+    position:absolute;
+    width: 99%;
+    bottom: 3%;
+    
+  }
+  .btn-groups a, .btn-groups-jogo a{
+    text-decoration: none;
+    text-align: center;
+  }
+.btn-groups {
+    text-align: center;
+    margin-top: 10%;
+    position:absolute;
+    width: 100%;
+    bottom: 3%;
+    left: 25%;
+  }
+  
+  .btn-red-tr{
+    min-width: 130px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 30px 25px;
+    font-size: 140%;
+    font-weight: 600;
+    color: #ecf0f1;
+    transition: 0.5s;
+    background-color: #e74c3c;
+  }
+  
+ 
+  .btn-red-tr:before {
+    position: absolute;
+    content: "";
+    border-top: 5px solid #ea6153;
+    border-left: 5px solid #ea6153;
+    border-right: 5px solid #e43725;
+    border-bottom: 5px solid #e43725;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.5s;
+  }
+  .btn-red-tr:hover {
+    box-shadow: 7px 7px #a82315, -7px -7px #f29f97;
+    cursor: pointer;
+  }
+  .btn-red-tr:hover::before {
+    border: 0px;
+  }
+  .btn-red-qa {
+    min-width: 120px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin: 30px 25px;
+    font-size: 140%;
+    font-weight: 600;
+    transition: 0.5s;
+  }
+  
+  .btn-red-qa {
+    border: 5px solid #e74c3c;
+    color: #e74c3c;
+  }
+  .btn-red-qa:hover {
+    cursor: pointer;
+  }
+  .btn-red-qa:hover::before {
+    border: 0px;
+  }
+  .btn-red-qa:hover {
+    background-color: #e43725;
+    border: 5px solid #ea6153;
+    color: #ecf0f1;
+    cursor: pointer;
+  }
